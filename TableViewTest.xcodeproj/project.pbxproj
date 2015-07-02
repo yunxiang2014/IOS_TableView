@@ -14,6 +14,8 @@
 		8B696A0F1AB0BD8F0071E7B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B696A0E1AB0BD8F0071E7B8 /* Images.xcassets */; };
 		8B696A121AB0BD8F0071E7B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B696A101AB0BD8F0071E7B8 /* LaunchScreen.xib */; };
 		8B696A1E1AB0BD8F0071E7B8 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B696A1D1AB0BD8F0071E7B8 /* TableViewTestTests.m */; };
+		8B696A281AB0BDFF0071E7B8 /* cars_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B696A271AB0BDFF0071E7B8 /* cars_simple.plist */; };
+		8B696A2A1AB0BE850071E7B8 /* CarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B696A291AB0BE850071E7B8 /* CarGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		8B696A171AB0BD8F0071E7B8 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B696A1C1AB0BD8F0071E7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B696A1D1AB0BD8F0071E7B8 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		8B696A271AB0BDFF0071E7B8 /* cars_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_simple.plist; sourceTree = "<group>"; };
+		8B696A291AB0BE850071E7B8 /* CarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarGroup.m; sourceTree = "<group>"; };
+		8B696A2B1AB0BED50071E7B8 /* CarGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CarGroup.h; path = ../CarGroup.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,8 @@
 				8B696A081AB0BD8F0071E7B8 /* ViewController.h */,
 				8B696A091AB0BD8F0071E7B8 /* ViewController.m */,
 				8B696A0B1AB0BD8F0071E7B8 /* Main.storyboard */,
+				8B696A2B1AB0BED50071E7B8 /* CarGroup.h */,
+				8B696A291AB0BE850071E7B8 /* CarGroup.m */,
 				8B696A0E1AB0BD8F0071E7B8 /* Images.xcassets */,
 				8B696A101AB0BD8F0071E7B8 /* LaunchScreen.xib */,
 				8B696A011AB0BD8F0071E7B8 /* Supporting Files */,
@@ -96,6 +103,7 @@
 		8B696A011AB0BD8F0071E7B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B696A271AB0BDFF0071E7B8 /* cars_simple.plist */,
 				8B696A021AB0BD8F0071E7B8 /* Info.plist */,
 				8B696A031AB0BD8F0071E7B8 /* main.m */,
 			);
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B696A0D1AB0BD8F0071E7B8 /* Main.storyboard in Resources */,
+				8B696A281AB0BDFF0071E7B8 /* cars_simple.plist in Resources */,
 				8B696A121AB0BD8F0071E7B8 /* LaunchScreen.xib in Resources */,
 				8B696A0F1AB0BD8F0071E7B8 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B696A2A1AB0BE850071E7B8 /* CarGroup.m in Sources */,
 				8B696A0A1AB0BD8F0071E7B8 /* ViewController.m in Sources */,
 				8B696A071AB0BD8F0071E7B8 /* AppDelegate.m in Sources */,
 				8B696A041AB0BD8F0071E7B8 /* main.m in Sources */,

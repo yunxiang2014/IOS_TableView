@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cars</key>
+		<array>
+			<string>Audi</string>
+			<string>BMW</string>
+			<string>Aston Martin</string>
+			<string>Poach</string>
+			<string>Buick</string>
+		</array>
+		<key>title</key>
+		<string>Made in Germany</string>
+		<key>desc</key>
+		<string>Good quality</string>
+	</dict>
+	<dict>
+		<key>cars</key>
+		<array>
+			<string>Honda</string>
+			<string>Hyundai</string>
+			<string>Infiniti</string>
+			<string>Kia</string>
+			<string>Lexus</string>
+		</array>
+		<key>title</key>
+		<string>Made in Japan</string>
+		<key>desc</key>
+		<string>Less gasline</string>
+	</dict>
+	<dict>
+		<key>cars</key>
+		<array>
+			<string>Ford</string>
+			<string>Caddilac</string>
+			<string>Jeep</string>
+			<string>Lincon</string>
+		</array>
+		<key>title</key>
+		<string>Made in USA</string>
+		<key>desc</key>
+		<string>More gasline</string>
+	</dict>
+	<dict>
+		<key>cars</key>
+		<array>
+			<string>Maserati</string>
+			<string>Lamborghini</string>
+			<string>Land Rover</string>
+			<string>Jaguar</string>
+		</array>
+		<key>title</key>
+		<string>Made in Europe</string>
+		<key>desc</key>
+		<string>Expensive</string>
+	</dict>
+	<dict>
+		<key>cars</key>
+		<array>
+			<string>biyadi</string>
+			<string>red flag</string>
+		</array>
+		<key>title</key>
+		<string>Normal</string>
+		<key>desc</key>
+		<string>Made In China</string>
+	</dict>
+</array>
+</plist>
